@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>GreenBasket - Registeration Page</title> 
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">    
+    <link rel="stylesheet" href="./assets/css/fontawesomeall.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/fontawesomeAll.css" />
+</head>
+<body>   
+    <form id="regForm">
+        <div class="logo"> <i class="fa-solid fa-shop fa-2xl"></i> </div>        <h3>Sign Up Here</h3>
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Enter First Name" id="fname">
+        <div><small id="fnameerror"></small></div>
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Enter Last Name" id="lname">
+        <div><small id="lnameerror"></small></div>
+        <label for="email">Email</label>
+        <input type="text" placeholder="Enter a valid email" id="email">
+        <div><small id="emailerror"></small></div>  
+        <label for="psw">Password</label>
+        <input type="text" placeholder="Enter a valid password" id="psw">
+        <div><small id="passerror"></small></div>
+        <button>Sign Up</button>
+        <div>
+            <p>Already have an account? <a href="./pages/loginPage.html">Login in</a>.</p></div>
+            <div>
+                <p><a href="./pages/productList.html" id="explore">Explore the Our Site </a>.</p> </div>
+    </form>
+    <script src="./index.js"></script>
+</body>
+</html>
